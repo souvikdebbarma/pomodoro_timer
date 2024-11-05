@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bison: #C5BEAB;
+  --color-bone: #E1DBCB;
+  --color-lemongrass: #9CA089;
+  --color-battleship: #868B6B;
+  --color-finch: #5D624C;
+}
+
+body {
+  @apply bg-bone text-finch;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+} 
